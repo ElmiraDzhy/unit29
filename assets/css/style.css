@@ -1,0 +1,21 @@
+@import url('./reset.css');
+
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 200px 200px;
+}
+
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background-color: violet;
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(231, 170, 255);
+}
